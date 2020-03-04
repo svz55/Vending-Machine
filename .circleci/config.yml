@@ -56,5 +56,6 @@ jobs:
 
       # run tests with phpunit or codecept
       #- run: ./vendor/bin/phpunit
+      - run: chmod 777 ./vendor/bin/codecept
       - run: ./vendor/bin/codecept build
       - run: ./vendor/bin/codecept run
