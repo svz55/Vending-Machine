@@ -30,4 +30,5 @@
         <env name="QUEUE_DRIVER" value="sync"/>
         <env name="MAIL_DRIVER" value="array"/>
     </php>
+    <env name="DB_CONNECTION" value="sqlite_memory"/>
 </phpunit>
